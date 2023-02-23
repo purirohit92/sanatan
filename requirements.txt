@@ -1,0 +1,14 @@
+asgiref==3.5.0
+Django==4.0.3
+django-allauth==0.50.0
+django-countries==5.3.3
+django-crispy-forms==1.7.2
+django-material-admin==1.8.6
+django-materializecss-form==1.1.17
+django-utils==0.0.2
+numpy==1.22.2
+oauthlib==3.2.0
+Pillow==9.0.1
+urllib3==1.24.2
+virtualenv==20.10.0
+django-jet==1.1.7
