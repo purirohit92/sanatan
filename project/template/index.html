@@ -199,7 +199,9 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
+                                {% if blog.images_all.0.image %}
                                 <img class="img-fluid" src="{{ blog.blog_images.all.0.image.url }} " alt="..." />
+                                {% endif %}
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">{{ blog.title }}</div>
