@@ -32,7 +32,8 @@ DEBUG = os.environ["DEBUG"]
 
 ALLOWED_HOSTS = ["*"]
 
-CSRF_TRUSTED_ORIGINS = ['*']
+CSRF_TRUSTED_ORIGINS = [
+    "https://fyp-production-b99d.up.railway.app/", "https://sanatanshaktinepal.com/"]
 
 # Application definition
 
